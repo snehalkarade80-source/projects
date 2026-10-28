@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+        <h1> Grand Core2Dine Hotel-Booking</h1>
+        <p>Complete the form below to reserve your room</p>
+        <nav>
+            <a href="index.html">Home</a>|
+            <a href="rooms.html">Rooms</a>|
+            <a href="room-comparison.html">Room-Comparsion</a>|
+           <strong><a href="booking.html">Booking</strong> </a>|
+             <a href="restaurant.html">Restaurant</a>|
+            <a href="gallery.html">Gallery</a>|
+            
+            <a href="media.html">Media</a>|
+            <a href="contact.html">Contact & FAQ</a>
+        </nav>
+        
+    </header><hr>
+    <h2>Hotel Booking Form</h2>
+    <p>Please provide the required information to Complete your hotel reservation</p>
+    <fieldset>
+        <legend><b>Guest Information</b> </legend>
+        <label>Full name:</label><br>
+        <input type="text" placeholder="Enter your full name">
+        <br><br>
+        <label>Email Address:</label><br>
+        <input type="email" placeholder="example@email.com">
+        <br><br>
+        <label>Phone Number:</label><br>
+        <input type="number" placeholder="Enter 10-didt phone number">
+
+
+    </fieldset>
+    <fieldset>
+        <legend><b>Stay Details</b></legend>
+        <label>Check-in Date</label>
+        <input type="date">
+        <br><br>
+        <label>Check-out Date</label>
+        <input type="date">
+        <br><br>
+        <label>Number of Guests:</label><br>
+        <input type="number" min="1" max="10">
+        <br><br>
+        <label>Room Type:</label>
+        <select>
+            <option selected>~~Select Room Type~~</option>
+            <option >Standard Room</option>
+            <option>Deluxe Room</option>
+            <option>Family Suite</option>
+            <option>Presidential Suite</option>
+        </select><br><br>
+        <label>Number of Rooms:</label><br>
+        <input type="number" min="1" max="10">
+    </fieldset>
+    <fieldset>
+        <legend><b>Meal Preference</b></legend>
+        <label>Select Your meal preference:</label><br><br>
+        <input type="radio">vegetarian<br>
+        <input type="radio">Nono-vegetarian<br>
+        <input type="radio">vegan<br>
+    </fieldset>
+    <fieldset>
+        <legend><b>Airport Pickup</b></legend>
+        <label>Do you require airport pickup?</label><br>
+        <input type="radio">Yes
+        <input type="radio">No
+    </fieldset>
+    <fieldset>
+        <legend><b>Additional Information</b></legend>
+        <label>Special Request:</label><br>
+        <textarea placeholder="Enter any special reuest...."></textarea>
+
+        <br><br>
+        <label>ID Proof Upload:</label><br>
+        <input type="file">
+        <br><br>
+       <input type="checkbox">I agree to the hotel terms and conditions
+    </fieldset>
+    <fieldset>
+        <legend><b>Submit Booking</b></legend>
+        <input type="submit" value="Booking">
+        <input type="reset" value="Form">
+    </fieldset>
+<footer>
+         &copy;2026 Grand Core2Dine Hotel.All Rights Reserved
+    </footer>
+</body>
+</html>
